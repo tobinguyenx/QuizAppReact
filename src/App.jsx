@@ -1,9 +1,12 @@
 import './App.css'
+import Quiz from './components/Quiz'
 
 function App() {
   return (
     <div className="container">
-      <h1>Hello Tai Nguyen</h1>
+      
+      <Quiz/>
+
     </div>
    
   )
