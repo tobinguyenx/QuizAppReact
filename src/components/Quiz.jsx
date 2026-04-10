@@ -92,9 +92,15 @@ const Quiz = () => {
       <h2>Question 1</h2>
       <p className="question"> {quizData[0].question} </p>
       {quizData[0].options.map((option) => (
-        <button className='option'>A</button>
+        <button className='option'>{option}</button>
       ))}
 
+      <div className='nav-buttons'>
+        <button>Previous</button>
+        <button>Next</button>
+      </div>
+    
+    <p>Your answer is: </p>
     </div>
   )
 }
